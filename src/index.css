@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+.header{
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); 
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+.header h1{
+  line-height: 60px;
+  color:aliceblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.header a{
+  color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+
+.body{
+ margin: auto;
+ display: flex;
+ align-items: center;
+flex-direction: column;
+min-height: 2000px;
+
+
+}
+
+
+.introduccion {
+  width: 900px;
+  /*border: solid red;*/
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin: 20px;
+  padding:10px;
+  align-items: center;
+  text-align: center;
+}
+
+.introduccion h1 {
+  width: 900px;
+  /*border: solid red;*/
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin: 20px;
+  padding:10px;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.introduccion h2 {
+  width: 900px;
+  /*border: solid red;*/
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin: 20px;
+  padding:10px;
+  align-items: center;
+  text-align: center;
+  color: rgb(205, 205, 205);
+}
+
+
+
+
+
+.footer{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 80px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+
+}

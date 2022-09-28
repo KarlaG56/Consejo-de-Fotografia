@@ -1,0 +1,21 @@
+
+.consejo-container{
+
+    margin: 30px auto;
+    width: 900px;
+    /*border: solid red;*/
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin: 20px;
+    padding:10px;
+    align-items: center;
+
+}
+
+.consejo-container img{
+        width:800px;
+        height:350px;
+     
+}
+
